@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">RosTester</string>
+    <string name="master_name">RosTester</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="thirdAreaTitle">上料区暂存区呼叫面板（3区）</string>
+    <string name="firstAreaTitle">工位暂存区呼叫面板（1区）</string>
+    <string name="secondAreaTitle">2区暂存物料信息</string>
+    <string name="resetBtn">重选</string>
+    <string name="metrcInfo">物料信息</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="sure_btn">确定</string>
+    <string name="reselect_btn">重选</string>
+    <string name="cancel_btn">重置所有</string>
+    <string name ="kongpanBtn">空盘运输</string>
+    <string name="topic_talker">/android/talker</string>
+    <string name="topic_listener">/android/listener</string>\
+
+    <string name="path_sender">/android/ptccs/order</string>
+    <string name="path_reader">/android/stccs/order</string>
+    <string name="path_tags">/android/stccs/position</string>
+    <string name="path_status">/android/stccs/agvstatus</string>
+    <string name="path_heartbeat">/android/stccs/heartbeat</string>
+
+
+    <string name="changeToTherrArea">切换到3区</string>
+    <string name="back">返回</string>
+
+
+    <string name="THREE_2_TWO_NAME">AGV_01</string>
+    <string name="THREE_2_TWO_EMPTY_NAME">AGV_03</string>
+    <string name="TWO_2_ONE_NAME">AGV_02</string>
+</resources>

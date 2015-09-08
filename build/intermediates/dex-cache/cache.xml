@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.apache.commons\com.springsource.org.apache.commons.logging\1.1.1\7657caf2c78e1d79c74d36f2ae128a115f7cc180\com.springsource.org.apache.commons.logging-1.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7657caf2c78e1d79c74d36f2ae128a115f7cc180">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\com.springsource.org.apache.commons.logging-1.1.1-3a0527a67b454405bdb3cf5516bef001fea9328d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.apache.commons\com.springsource.org.apache.commons.lang\2.4.0\686e3713650c8e3a5d98723b4d3e239586bf9822\com.springsource.org.apache.commons.lang-2.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686e3713650c8e3a5d98723b4d3e239586bf9822">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\com.springsource.org.apache.commons.lang-2.4.0-558aedae8b33c5d6f954508689c6c9686ec97ada.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\commons-pool\commons-pool\1.6\4572d589699f09d866a226a14b7f4323c6d8f040\commons-pool-1.6.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4572d589699f09d866a226a14b7f4323c6d8f040">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\commons-pool-1.6-ff13edbe6f50a2ef1ebe0af55275bbb54b3867fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.robotics_in_concert.rocon_rosjava_core\master_info\0.2.0\dd70b5edef018e453e6e221653f610ac76067d10\master_info-0.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd70b5edef018e453e6e221653f610ac76067d10">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\master_info-0.2.0-a2a05b263c10b6f9c97a1a1ded25c8449d9630e2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_core\rosjava\0.2.1\68face01dcd34ac0dd82fc3745afd764d330b427\rosjava-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="68face01dcd34ac0dd82fc3745afd764d330b427">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\rosjava-0.2.1-cf83f472f1fd7e77e55bf5673ceb2a38739d23c5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\dnsjava\dnsjava\2.1.1\5708df81cf6dbff545695f0be6380b7bbc85accc\dnsjava-2.1.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5708df81cf6dbff545695f0be6380b7bbc85accc">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\dnsjava-2.1.1-12ad2df796640a8cd5f97fcb9eaf1b1c2b45a4f9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_messages\rocon_service_pair_msgs\0.7.10\959171d69c6252ac5307fac736f531efb88758f0\rocon_service_pair_msgs-0.7.10.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="959171d69c6252ac5307fac736f531efb88758f0">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\rocon_service_pair_msgs-0.7.10-271dabedc6ba68be431cf793b226227561f59010.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.apache.ws.commons\ws-commons-util\1.0.1\126e80ff798fece634bc94e61f8be8a8da00be60\ws-commons-util-1.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="126e80ff798fece634bc94e61f8be8a8da00be60">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\ws-commons-util-1.0.1-b581710eefafc6be50f38b2e8a83f78575836e5d.jar" />
+    </item>
+    <item
+        jar="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\exploded-aar\com.github.rosjava.android_remocons\common_tools\0.2.0\libs\snakeyaml-1.10-android.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44f54d3cccd88ce8e1c6dad1918b295dc2dceefe">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\snakeyaml-1.10-android-4680b50ade6d712e991af11e8e58f0582151bb86.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.rosjava.zeroconf_jmdns_suite\jmdns\0.2.1\cf248e6c757b1ded5d4b73040d29720f51e94dbc\jmdns-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="cf248e6c757b1ded5d4b73040d29720f51e94dbc">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\jmdns-0.2.1-b50812784312590608c066946b673fb9aec88f88.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_messages\sensor_msgs\1.11.7\5f0b7ac0b5d341b9b37f408ab45c4a2e4c80068e\sensor_msgs-1.11.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5f0b7ac0b5d341b9b37f408ab45c4a2e4c80068e">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\sensor_msgs-1.11.7-35a6810f7cd9e6c86bb31a72874e49ada9c0da6c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_messages\rocon_app_manager_msgs\0.7.10\c839ce0f40d325b9118ea33c130d54726d7e3089\rocon_app_manager_msgs-0.7.10.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c839ce0f40d325b9118ea33c130d54726d7e3089">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\rocon_app_manager_msgs-0.7.10-3f7a1cdf4e22df59a3734df039c087433711c639.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_core\apache_xmlrpc_common\0.2.1\a956178368232d0a9fccf501a8c91aacf2ac0256\apache_xmlrpc_common-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a956178368232d0a9fccf501a8c91aacf2ac0256">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\apache_xmlrpc_common-0.2.1-c3208d868488ffe60e428e5e79f01677397d8271.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_messages\rocon_std_msgs\0.7.10\383c1d43ceb9b0a2a27860196574ca7a8ea3a9f4\rocon_std_msgs-0.7.10.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="383c1d43ceb9b0a2a27860196574ca7a8ea3a9f4">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\rocon_std_msgs-0.7.10-5476db4c2a41c921ec61a3eb7b16a31678817282.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_messages\rosgraph_msgs\1.11.1\e3d30a4a74f6282d014f7fd9828f5131bb3a9915\rosgraph_msgs-1.11.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d30a4a74f6282d014f7fd9828f5131bb3a9915">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\rosgraph_msgs-1.11.1-f0c029fabcdeabf9ee37072cab3cdf2ea1f7c97c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\1.3.9\40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf\jsr305-1.3.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\jsr305-1.3.9-297c2110c0ed5161e4cb188dc01f26df83cc4230.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_messages\uuid_msgs\1.0.5\f3ea8fc10c675ccadbbf8c0885497f990b1e8248\uuid_msgs-1.0.5.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f3ea8fc10c675ccadbbf8c0885497f990b1e8248">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\uuid_msgs-1.0.5-105c9d60d2d07081e11388ed26ebd561c97e4b46.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_core\rosjava_tutorial_pubsub\0.2.1\bdab50add81a0afe983aa60b6e15d082c33b98f4\rosjava_tutorial_pubsub-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bdab50add81a0afe983aa60b6e15d082c33b98f4">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\rosjava_tutorial_pubsub-0.2.1-c2318f4139a89c912747a023b999a67448ae6de5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_messages\rocon_interaction_msgs\0.7.10\e603588ddce28a177b139ada46d591aaac5273ba\rocon_interaction_msgs-0.7.10.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e603588ddce28a177b139ada46d591aaac5273ba">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\rocon_interaction_msgs-0.7.10-127432cf378805112018d041703203d5401be548.jar" />
+    </item>
+    <item
+        jar="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\exploded-aar\com.github.rosjava.android_remocons\common_tools\0.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fe3f096d8697c707347e2d36a9a0969a22f54ebb">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\classes-23f27a25ae79b8f411bf0ed4945b1f215ba41a70.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_messages\actionlib_msgs\1.11.7\9ec983bb2eaaa20552edeb3544e04a45308fe71b\actionlib_msgs-1.11.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9ec983bb2eaaa20552edeb3544e04a45308fe71b">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\actionlib_msgs-1.11.7-8f07b38bf0c3905245732eeee8919da5170bac5f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_messages\tf2_msgs\0.5.9\b2fea11356b0f4ce744f30ac76e987b531b6028e\tf2_msgs-0.5.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b2fea11356b0f4ce744f30ac76e987b531b6028e">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\tf2_msgs-0.5.9-93f135c0752076de6acab1e389e075f56238bf39.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_messages\rosjava_test_msgs\0.2.1\e10783e01c21cbe271aa6062c87f20d11c6053f0\rosjava_test_msgs-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e10783e01c21cbe271aa6062c87f20d11c6053f0">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\rosjava_test_msgs-0.2.1-96f35d0197c3099a6f299ee59bab45f3f349d733.jar" />
+    </item>
+    <item
+        jar="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\exploded-aar\com.github.rosjava.android_extras\gingerbread\0.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ecfb222ab5e32d99c0cfc0f0dbf48cb3927add0e">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\classes-dd104e6e3b6d94d818f3f1fad95b9954a4e364ca.jar" />
+    </item>
+    <item
+        jar="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\libs\zxing.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e88c14e6e7daa0fa65172a62b54ee6a16ff4162d">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\zxing-b0a55548c4e80ae74908393967382477baeaf500.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.apache.commons\com.springsource.org.apache.commons.codec\1.3.0\f8690570eb0913d750262bb4223eed30b0d619ed\com.springsource.org.apache.commons.codec-1.3.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f8690570eb0913d750262bb4223eed30b0d619ed">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\com.springsource.org.apache.commons.codec-1.3.0-93561c54e8cc912824a4d6ec62fdbbba6fedf87d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_bootstrap\message_generation\0.2.1\dc3afb66cd5aa168a71bcb63ba89560b197b9300\message_generation-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dc3afb66cd5aa168a71bcb63ba89560b197b9300">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\message_generation-0.2.1-8d60cf5582b0bc36c11d8288ffe53021bc283e91.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.apache.commons\com.springsource.org.apache.commons.net\2.0.0\3e78766072ff5a5cf3f5431d973c430c94ec612\com.springsource.org.apache.commons.net-2.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="03e78766072ff5a5cf3f5431d973c430c94ec612">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\com.springsource.org.apache.commons.net-2.0.0-6e1a785f208fc7c543b40933ee68a2b07cc9e3b5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_messages\nav_msgs\1.11.7\13b7b4aae1bf791c4f3a3a9ef68e58015cff1152\nav_msgs-1.11.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="13b7b4aae1bf791c4f3a3a9ef68e58015cff1152">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\nav_msgs-1.11.7-c6ed714e460e8522d975be1f1de3c54a958892fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_bootstrap\gradle_plugins\0.2.1\33c05915db7ef72ac3978d33b16abd1b4b06fec9\gradle_plugins-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="33c05915db7ef72ac3978d33b16abd1b4b06fec9">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\gradle_plugins-0.2.1-5803fa376f95afd0797f5ff7f639addc2c9e67a6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_core\apache_xmlrpc_client\0.2.1\55f1cf075db9507a26102898e9f146221e4c1aaf\apache_xmlrpc_client-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="55f1cf075db9507a26102898e9f146221e4c1aaf">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\apache_xmlrpc_client-0.2.1-55a29861dbfe943744295c76cc26bb041d136245.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\io.netty\netty\3.5.2.Final\e6fb74a0699abe108969b2ec1f269391169a0426\netty-3.5.2.Final.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e6fb74a0699abe108969b2ec1f269391169a0426">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\netty-3.5.2.Final-52eef6c89fd9dfc5f46ca029e477c747b8bff5bf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.google.guava\guava\12.0\5bc66dd95b79db1e437eb08adba124a3e4088dc0\guava-12.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5bc66dd95b79db1e437eb08adba124a3e4088dc0">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\guava-12.0-f746b9415fd97a7bae5765c077214f90d90edfd8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_messages\geometry_msgs\1.11.7\bb9ca9051697047f8ebacae69956aa562d43b0e1\geometry_msgs-1.11.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bb9ca9051697047f8ebacae69956aa562d43b0e1">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\geometry_msgs-1.11.7-7a7c822b8ae799e800ccf6a27fcc131aebdaaca9.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_messages\std_msgs\0.5.9\68490f8a983f5415bb95ebf93010c347c4fd20d8\std_msgs-0.5.9.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="68490f8a983f5415bb95ebf93010c347c4fd20d8">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\std_msgs-0.5.9-54c94319587ce34e679eba12fa005cd899d85f86.jar" />
+    </item>
+    <item
+        jar="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\exploded-aar\com.github.rosjava.android_extras\zxing\0.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2a8077a0060649b08f3935995addaf7511bfa344">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\classes-791f62c0b6f044085f0945809532d7be8a7dc2f8.jar" />
+    </item>
+    <item
+        jar="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\libs\wolh_msgs-0.4.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="84657ce6964613a8befc53fa2011b84396f4d042">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\wolh_msgs-0.4.1-7f923da931548c0cd8957146897869dd4346bed7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.apache.commons\com.springsource.org.apache.commons.io\1.4.0\51097cd000ec88214ff181c9f059947de1cf4a35\com.springsource.org.apache.commons.io-1.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="51097cd000ec88214ff181c9f059947de1cf4a35">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\com.springsource.org.apache.commons.io-1.4.0-52c9c86e8a1e2fe8c051923aff1b0edcdd90993d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.robotics_in_concert.rocon_rosjava_core\rosjava_utils\0.2.0\d591f96a1f4b8d3fdccf70aa4035087096093d06\rosjava_utils-0.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d591f96a1f4b8d3fdccf70aa4035087096093d06">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\rosjava_utils-0.2.0-f5e8e93fe79183a0048ab2811c5504e30558f916.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\com.github.robotics_in_concert.rocon_rosjava_core\rocon_interactions\0.2.0\4d8e809f68c90a9736070c1cf68920821ac3854b\rocon_interactions-0.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4d8e809f68c90a9736070c1cf68920821ac3854b">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\rocon_interactions-0.2.0-b5e719a4329fee93b37596382409012d4abb3045.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.apache.commons\com.springsource.org.apache.commons.httpclient\3.1.0\c493a925a091ac3d8f449d9265fe12482dabb2a7\com.springsource.org.apache.commons.httpclient-3.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c493a925a091ac3d8f449d9265fe12482dabb2a7">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\com.springsource.org.apache.commons.httpclient-3.1.0-fcfb8ebf983ba68a79ce848d3c73ddf6b6c56c9a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_core\apache_xmlrpc_server\0.2.1\f96701e8f578b6a4fc538e8a8a6b8f9256fd6718\apache_xmlrpc_server-0.2.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="f96701e8f578b6a4fc538e8a8a6b8f9256fd6718">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\apache_xmlrpc_server-0.2.1-7a9a8a590dc22719301d78ad0eb030b740964f4b.jar" />
+    </item>
+    <item
+        jar="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\exploded-aar\org.ros.android_core\android_10\0.2.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c3a30924c3f64ed4870fa76411f01ae2be62abcc">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\classes-d52b4bf145356f6397f3fcad1670d8bba1496ee3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\org.ros.rosjava_messages\diagnostic_msgs\1.11.7\119c52755000fa22288dd666c4185f54ca737410\diagnostic_msgs-1.11.7.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="119c52755000fa22288dd666c4185f54ca737410">
+        <dex dex="D:\Users\Administrator\AndroidStudioProjects\android_remocons\app\build\intermediates\pre-dexed\indigo\debug\diagnostic_msgs-1.11.7-c5bdac36de1a08193007e89a11eacba08a2068a5.jar" />
+    </item>
+
+</items>

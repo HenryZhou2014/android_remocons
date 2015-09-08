@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_margin="5sp "
+    android:padding="10sp"
+
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/secLayout">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page1"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/b020101"
+            android:tag="b020101"
+            android:textColor="#000000"
+            android:text="1-1"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/b020102"
+            android:textColor="#000000"
+            android:tag="b020102"
+            android:text="1-2"
+            android:background="@drawable/cicle_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page1"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB3"
+            android:tag="b020103"
+            android:textColor="#000000"
+            android:text="1-3"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB4"
+            android:tag="b020104"
+            android:textColor="#000000"
+            android:text="1-4"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeBb5"
+            android:tag="b020105"
+            android:textColor="#000000"
+            android:text="1-5"
+            android:background="@drawable/cicle_button"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page1"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB5"
+            android:textColor="#000000"
+            android:text="2-1"
+            android:tag="b020201"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB6"
+            android:textColor="#000000"
+            android:text="2-2"
+            android:tag="b020202"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB7"
+            android:textColor="#000000"
+            android:text="2-3"
+            android:tag="b020203"
+            android:background="@drawable/cicle_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page1"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB8"
+            android:textColor="#000000"
+            android:text="2-4"
+            android:tag="b020204"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeBb8"
+            android:textColor="#000000"
+            android:text="2-5"
+            android:tag="b020205"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeBb9"
+            android:textColor="#000000"
+            android:text="2-6"
+            android:tag="b020206"
+            android:background="@drawable/cicle_button"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page1"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB9"
+            android:textColor="#000000"
+            android:text="3-1"
+            android:tag="b020301"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB10"
+            android:textColor="#000000"
+            android:text="3-2"
+            android:tag="b020302"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB11"
+            android:textColor="#000000"
+            android:text="3-3"
+            android:tag="b020303"
+            android:background="@drawable/cicle_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page1"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB12"
+            android:textColor="#000000"
+            android:text="3-4"
+            android:tag="b020304"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeBb12"
+            android:textColor="#000000"
+            android:text="3-5"
+            android:tag="b020305"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeBb13"
+            android:textColor="#000000"
+            android:text="3-6"
+            android:tag="b020306"
+            android:background="@drawable/cicle_button"/>
+     </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page1"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB13"
+            android:textColor="#000000"
+            android:text="4-1"
+            android:tag="b020401"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB14"
+            android:textColor="#000000"
+            android:text="4-2"
+            android:tag="b020402"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB15"
+            android:textColor="#000000"
+            android:text="4-3"
+            android:tag="b020403"
+            android:background="@drawable/cicle_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page1"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB16"
+            android:textColor="#000000"
+            android:text="4-4"
+            android:tag="b020404"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeBb16"
+            android:textColor="#000000"
+            android:text="4-5"
+            android:tag="b020405"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeBb17"
+            android:textColor="#000000"
+            android:text="4-5"
+            android:tag="b020405"
+            android:background="@drawable/cicle_button"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page1"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB17"
+            android:textColor="#000000"
+            android:text="5-1"
+            android:tag="b020501"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB18"
+            android:textColor="#000000"
+            android:text="5-2"
+            android:tag="b020502"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB19"
+            android:textColor="#000000"
+            android:text="5-3"
+            android:tag="b020503"
+            android:background="@drawable/cicle_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page1"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB20"
+            android:textColor="#000000"
+            android:text="5-4"
+            android:tag="b020504"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeBb20"
+            android:textColor="#000000"
+            android:text="5-5"
+            android:tag="b020505"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeBb21"
+            android:textColor="#000000"
+            android:text="5-6"
+            android:tag="b020506"
+            android:background="@drawable/cicle_button"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page1"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB21"
+            android:textColor="#000000"
+            android:text="6-1"
+            android:tag="b020601"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB22"
+            android:textColor="#000000"
+            android:text="6-2"
+            android:tag="b020602"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB23"
+            android:textColor="#000000"
+            android:text="6-3"
+            android:tag="b020603"
+            android:background="@drawable/cicle_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page1"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB24"
+            android:textColor="#000000"
+            android:text="6-4"
+            android:tag="b020604"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp     "
+            android:layout_height="70sp     "
+            android:layout_margin="5sp "
+            android:id="@+id/treeBb24"
+            android:textColor="#000000"
+            android:text="6-5"
+            android:tag="b020605"
+            android:background="@drawable/cicle_button"/>
+      </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page2"
+        android:visibility="gone"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB25"
+            android:textColor="#000000"
+            android:text="7-1"
+            android:tag="b020701"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB26"
+            android:textColor="#000000"
+            android:text="7-2"
+            android:tag="b020702"
+            android:background="@drawable/cicle_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page2"
+        android:visibility="gone"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB27"
+            android:textColor="#000000"
+            android:text="7-3"
+            android:tag="b020703"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB28"
+            android:textColor="#000000"
+            android:text="7-4"
+            android:tag="b020704"
+            android:background="@drawable/cicle_button"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page2"
+        android:visibility="gone"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB29"
+            android:textColor="#000000"
+            android:text="8-1"
+            android:tag="b020801"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB30"
+            android:textColor="#000000"
+            android:text="8-2"
+            android:tag="b020802"
+            android:background="@drawable/cicle_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page2"
+        android:visibility="gone"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB31"
+            android:textColor="#000000"
+            android:text="8-3"
+            android:tag="b020803"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB32"
+            android:textColor="#000000"
+            android:text="8-4"
+            android:tag="b020804"
+            android:background="@drawable/cicle_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page2"
+        android:visibility="gone"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB33"
+            android:textColor="#000000"
+            android:text="9-1"
+            android:tag="b020901"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB34"
+            android:textColor="#000000"
+            android:text="9-2"
+            android:tag="b020902"
+            android:background="@drawable/cicle_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page2"
+        android:visibility="gone"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB35"
+            android:textColor="#000000"
+            android:text="9-3"
+            android:tag="b020903"
+            android:background="@drawable/cicle_button"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page2"
+        android:visibility="gone"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB37"
+            android:textColor="#000000"
+            android:text="10-1"
+            android:tag="b021001"
+            android:background="@drawable/cicle_button"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page2"
+        android:visibility="gone"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB38"
+            android:textColor="#000000"
+            android:text="10-2"
+            android:tag="b021002"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB39"
+            android:textColor="#000000"
+            android:text="10-3"
+            android:tag="b021003"
+            android:background="@drawable/cicle_button"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page2"
+        android:visibility="gone"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB41"
+            android:textColor="#000000"
+            android:text="11-1"
+            android:tag="b021101"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB42"
+            android:textColor="#000000"
+            android:text="11-2"
+            android:tag="b021102"
+            android:background="@drawable/cicle_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page2"
+        android:visibility="gone"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB43"
+            android:textColor="#000000"
+            android:text="11-3"
+            android:tag="b021103"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB44"
+            android:textColor="#000000"
+            android:text="11-4"
+            android:tag="b021104"
+            android:background="@drawable/cicle_button"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page2"
+        android:visibility="gone"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB45"
+            android:textColor="#000000"
+            android:text="12-1"
+            android:tag="b021201"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB46"
+            android:textColor="#000000"
+            android:text="12-2"
+            android:tag="b021202"
+            android:background="@drawable/cicle_button"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:tag="page2"
+        android:visibility="gone"
+        >
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB47"
+            android:textColor="#000000"
+            android:text="12-3"
+            android:tag="b021203"
+            android:background="@drawable/cicle_button"/>
+        <com.henry.view.SecondAreaButton
+            android:layout_width="70sp   "
+            android:layout_height="70sp   "
+            android:layout_margin="5sp "
+            android:id="@+id/treeB48"
+            android:textColor="#000000"
+            android:text="12-4"
+            android:tag="b021204"
+            android:background="@drawable/cicle_button"/>
+    </LinearLayout>
+    
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android_remocons.iml" filepath="$PROJECT_DIR$/android_remocons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common_tools/common_tools.iml" filepath="$PROJECT_DIR$/common_tools/common_tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/headless_launcher/headless_launcher.iml" filepath="$PROJECT_DIR$/headless_launcher/headless_launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listener/listener.iml" filepath="$PROJECT_DIR$/listener/listener.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocon_nfc_writer/rocon_nfc_writer.iml" filepath="$PROJECT_DIR$/rocon_nfc_writer/rocon_nfc_writer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rocon_remocon/rocon_remocon.iml" filepath="$PROJECT_DIR$/rocon_remocon/rocon_remocon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/talker/talker.iml" filepath="$PROJECT_DIR$/talker/talker.iml" />
+    </modules>
+  </component>
+</project>
