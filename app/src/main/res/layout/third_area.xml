@@ -9,11 +9,25 @@
        android:layout_width="fill_parent"
        android:gravity="center"
        android:layout_height="50sp">
-
+       <Button
+           android:layout_width="20sp"
+           android:layout_height="20sp"
+           android:layout_marginRight="30sp"
+           android:background="@drawable/heartbeat_back"
+           android:onClick="submit"
+           android:id="@+id/heatbeatid"
+           />
        <TextView
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:text="@string/thirdAreaTitle"/>
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:id="@+id/btn4Pop"
+           android:layout_gravity="right"
+           android:visibility="gone"
+           />
    </LinearLayout>
 
     <LinearLayout

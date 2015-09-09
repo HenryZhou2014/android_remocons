@@ -5,14 +5,23 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.view.Window;
 import android.view.WindowManager;
+import android.view.animation.AlphaAnimation;
+import android.view.animation.Animation;
+import android.view.animation.LinearInterpolator;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
+import android.widget.PopupWindow;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.github.rosjava.android_remocons.common_tools.apps.RosAppActivity;
@@ -58,7 +67,7 @@ public class ThirdAreaActivity extends RosAppActivity implements View.OnClickLis
     public ThirdAreaActivity() {
         super("rostester", "rostester");
     }
-
+    private Button btn4Pop;
     private final static int SCANNIN_GREQUEST_CODE = 1;
     //Total of three area Button
     private int count = 17;
@@ -134,7 +143,7 @@ public class ThirdAreaActivity extends RosAppActivity implements View.OnClickLis
 
         initThreeButton();
         ininSecondButton();
-
+        btn4Pop=(Button)findViewById(R.id.btn4Pop);
         fromB  =(Button)findViewById(R.id.fromtBtnId);
         toB=(Button)findViewById(R.id.tolBtnId);
         secondRootLayout =(LinearLayout) findViewById(R.id.secLayout);
@@ -533,12 +542,50 @@ public class ThirdAreaActivity extends RosAppActivity implements View.OnClickLis
         return false;
     }
 
+    public void secondLft(View v){
+        showSecondAreaPage1();
+        findViewById(R.id.secondRigArrowid).setVisibility(View.VISIBLE);
+        findViewById(R.id.secondLftArrowid).setVisibility(View.GONE);
+    }
+
+    public void secondRig(View v){
+        showSecondAreaPage2();
+        findViewById(R.id.secondRigArrowid).setVisibility(View.GONE);
+        findViewById(R.id.secondLftArrowid).setVisibility(View.VISIBLE);
+    }
+
+    public void showSecondAreaPage1(){
+        int count = secondRootLayout.getChildCount();
+        for(int i =0;i<count;i++){
+            View child = secondRootLayout.getChildAt(i);
+            if(child.getTag().equals("page1")){
+                child.setVisibility(View.VISIBLE);
+            }else{
+                child.setVisibility(View.GONE);
+            }
+        }
+    }
+
+    public void showSecondAreaPage2(){
+        int count = secondRootLayout.getChildCount();
+        for(int i =0;i<count;i++){
+            View child = secondRootLayout.getChildAt(i);
+            if(child.getTag().equals("page2")){
+                child.setVisibility(View.VISIBLE);
+            }else{
+                child.setVisibility(View.GONE);
+            }
+        }
+    }
+
+
+
     /**
      * SUBMIT REQUEST
      * @param v
      */
     public void submit(View v){
-
+        heartBreat();
 //        changeFromRev("AGV_1",20101,30101,"Meter",3);
         if(fromBtnFlag==null ||toBtnFlag==null){
             Log.i("TEST","请选择请求和目的地址");
@@ -586,9 +633,9 @@ public class ThirdAreaActivity extends RosAppActivity implements View.OnClickLis
 
 
         if(model == MODEL_NORMAL){
-            currentSecondBtn.changeState(SecondAreaButton.STATE_FULL_2);
-            currentThreeBtn.nextState();
-            currentThreeBtn.setMeterCls("");
+            //currentSecondBtn.changeState(SecondAreaButton.STATE_FULL_2);
+            //currentThreeBtn.nextState();
+            //currentThreeBtn.setMeterCls("");
         }else{
             if(fromBtnFlag instanceof SecondAreaButton){
                 currentSecondBtn.changeState(SecondAreaButton.STATE_INIT_2);
@@ -623,12 +670,12 @@ public class ThirdAreaActivity extends RosAppActivity implements View.OnClickLis
      * SUBMIT REQUEST
      * @param v
      */
-    public void concel(View v){
-
-        //TODO send cancel msg to server
-        isSelectedThreeBtn=false;
-        fromB.setBackgroundDrawable(getResources().getDrawable(R.drawable.cicle_button));
-        toB.setBackgroundDrawable(getResources().getDrawable(R.drawable.cicle_button));
+    public void reset(View v){
+        Status statusTalker = topicsSetting.statusTalkerPublisher.newMessage();
+        statusTalker.setSysStatus(10);
+        topicsSetting.statusTalkerPublisher.publish(statusTalker);
+        //将消息通过Publisher发送出去。
+        Toast.makeText(ThirdAreaActivity.this,"重置平板消息已发出",Toast.LENGTH_LONG).show();
     }
 
     /**
@@ -666,10 +713,15 @@ public class ThirdAreaActivity extends RosAppActivity implements View.OnClickLis
 
     }
 
+
+
+
     public class TopicsSetting extends AbstractNodeMain {
 
         public Publisher<Order> orderTalkerPublisher; //发送消息
         public Subscriber<Order> orderListenerSubscriber;//接收消息
+
+        public Publisher<Status> statusTalkerPublisher; //发送消息
         //分别定义了一个Publisher(向ROS系统发布消息的单元)和一个Subscriber(接受自ROS系统发来的消息的单元)
         public Subscriber<RfidTags> rfidTagsListenerSubscriber;//接收消息
         public Subscriber<Status> statusListenerSubscriber;//接收消息
@@ -681,6 +733,7 @@ public class ThirdAreaActivity extends RosAppActivity implements View.OnClickLis
         }
         public void onStart(final ConnectedNode connectedNode)
         {
+            statusTalkerPublisher = connectedNode.newPublisher(getString(R.string.path_status_pub), Status._TYPE);
             orderTalkerPublisher = connectedNode.newPublisher(getString(R.string.path_sender), Order._TYPE);
             orderListenerSubscriber = connectedNode.newSubscriber(getString(R.string.path_reader), Order._TYPE);
             rfidTagsListenerSubscriber  = connectedNode.newSubscriber(getString(R.string.path_tags), RfidTags._TYPE);
@@ -695,17 +748,8 @@ public class ThirdAreaActivity extends RosAppActivity implements View.OnClickLis
                 @Override
                 public void onNewMessage(Order order)
                 {
-//                    agvToAndroidRfidTags = rfidTags.getRfidTags();
-                    // 获得地面上的rfid卡号数值并赋值给agvToAndroidRfidTags。
-
-//                    Message readObject = new Message();
-//                    readObject.what = 0;
-//                    Bundle bundle = new Bundle();
-//                    bundle.putParcelable("",rfidTags);
-//                    readObject.setData(bundle);
-//                    textHandlerListener.sendMessage(msgRfidTags);
-                    // 通过调用Handler执行相关动作
-                    Toast.makeText(ThirdAreaActivity.this,order.getStatus()+" Order",Toast.LENGTH_LONG).show();
+                    Log.i("TTTTTTTTTTTTTTT", order.getRobotName());
+                    upUIHandle.post(new UpdateUI(order));
                 }
             });
 
@@ -715,7 +759,7 @@ public class ThirdAreaActivity extends RosAppActivity implements View.OnClickLis
                 public void onNewMessage(RfidTags rfidTags)
                 {
                     agvToAndroidRfidTags = rfidTags.getRfidTags();
-                    Toast.makeText(ThirdAreaActivity.this, agvToAndroidRfidTags[0] + " RfidTags", Toast.LENGTH_LONG).show();
+//                    Toast.makeText(ThirdAreaActivity.this, agvToAndroidRfidTags[0] + " RfidTags", Toast.LENGTH_LONG).show();
                 }
             });
 
@@ -724,7 +768,10 @@ public class ThirdAreaActivity extends RosAppActivity implements View.OnClickLis
                 @Override
                 public void onNewMessage(Status status)
                 {
-                    Toast.makeText(ThirdAreaActivity.this,status.getSysStatus()+" Status",Toast.LENGTH_LONG).show();
+                    if(status.getSysStatus() == 10){ //10 重置所有平板
+                        resetAllUIHandle.post(new ResetAllUI(status));
+                    }
+//
                 }
             });
 
@@ -733,27 +780,68 @@ public class ThirdAreaActivity extends RosAppActivity implements View.OnClickLis
                 @Override
                 public void onNewMessage(UInt16 status)
                 {
-                    Toast.makeText(ThirdAreaActivity.this," UInt16",Toast.LENGTH_LONG).show();
+                        heartUIHandle.post(new HeartBeatUI());
                 }
             });
         }
     };
 
-    Handler textHandlerListener=new Handler() {
-        public void handleMessage(Message msg)
-        {
-            switch (msg.what)
-            {
-                case 0:
-                    Toast.makeText(ThirdAreaActivity.this, "返回：" + msg.what, Toast.LENGTH_SHORT).show();
-                    break;
-                default:
-                    Toast.makeText(ThirdAreaActivity.this, "I'm Listening" + msg.what, Toast.LENGTH_SHORT).show();
-            }
+   final Handler upUIHandle=new Handler();
+    final Handler heartUIHandle=new Handler();
+    final Handler resetAllUIHandle=new Handler();
 
+    class HeartBeatUI implements Runnable{
+        public HeartBeatUI(){};
+        UInt16 status;
+        public HeartBeatUI(UInt16 status){
+            this.status = status;
+        };
+        public void run(){
+//            Looper.prepare();
+//            Toast.makeText(ThirdAreaActivity.this," heartBeat:"+status.getData(),Toast.LENGTH_SHORT).show();
+//            Looper.loop();;
+//            if(status.getData()==99)
+            Log.i("hearBeat......" ,status==null?"status empty":status.getData()+"");
+            heartBreat();
         }
-    };
+    }
+    class ResetAllUI implements Runnable{
+        Status status;
+        public ResetAllUI(){};
+        public ResetAllUI(Status status){
+            this.status = status;
+        }
+        public void run(){
+            for(SpecButton threeB:threeAreaButtonCollect){
+                if(threeB!=null){
+                    threeB.changeState(threeB.STATE_INIT_3);
+                    threeB.setMeterCls("");
+                }
+            }
+            for(SecondAreaButton secondB :secondButtonCollect ){
+                if(secondB!=null){
+                    secondB.changeState(secondB.STATE_INIT_2);
+                    secondB.setMeterCls("");
+                }
+            }
+           Iterator it =  meterSet.iterator();
+            while(it.hasNext()){
 
+            }
+        }
+    }
+
+   class UpdateUI implements Runnable{
+       Order order;
+       public UpdateUI(){};
+       public UpdateUI(Order order){
+           this.order = order;
+       }
+       public void run(){
+           changeFromRev(this.order.getRobotName(), this.order.getTargetId(), this.order.getStartId(), this.order.getMaterial(), this.order.getStatus());
+
+       }
+   }
 
     public void changeFromRev(String type,int targetid,int startid,String meter,int status){
         LinearLayout rootLay= (LinearLayout)findViewById(R.id.thirdRootid);
@@ -972,4 +1060,32 @@ public class ThirdAreaActivity extends RosAppActivity implements View.OnClickLis
             e.printStackTrace();
         }
     }
+
+    public void heartBreat(){
+        Button heart= (Button)findViewById(R.id.heatbeatid);
+        final Animation animation = new AlphaAnimation(1, 0); // Change alpha from fully visible to invisible
+        animation.setDuration(300); // duration - half a second
+        animation.setInterpolator(new LinearInterpolator()); // do not alter animation rate
+        animation.setRepeatCount(0); // Repeat animation infinitely
+        animation.setRepeatMode(Animation.REVERSE); // Reverse animation at the end so the button will fade back in
+        heart.startAnimation(animation);
+    }
+    public void popAlert(String mgs){
+        View contentView = LayoutInflater.from(this).inflate(
+                R.layout.cosmtor_popwindow, null);
+
+        final PopupWindow popupWindow = new PopupWindow(contentView, ViewGroup.LayoutParams.FILL_PARENT, ViewGroup.LayoutParams.FILL_PARENT, true);
+
+        Button hiddenBtn = (Button)popupWindow.getContentView().findViewById(R.id.hiddenPopBtn);
+        TextView messagePop = (TextView)popupWindow.getContentView().findViewById(R.id.messagePop);
+        hiddenBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                popupWindow.dismiss();
+            }
+        });
+        popupWindow.showAtLocation(btn4Pop, Gravity.CENTER, 0, 0);
+        messagePop.setText(mgs);
+    }
+
 }

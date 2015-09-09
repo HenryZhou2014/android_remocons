@@ -10,6 +10,8 @@
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/company/administrator/monitorsystem/SubmitAreaFragment.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/company/administrator/monitorsystem/ThirdAreaActivity.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/company/administrator/monitorsystem/ThirdAreaFragment.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/henry/exception/CrashApplication.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/henry/exception/CrashHandler.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/henry/view/CustomerToast.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/henry/view/MeterTextView.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/java/com/henry/view/OneAreaButton.java" charset="UTF-8" />
@@ -42,6 +44,7 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/cicle_button_white_focus.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/cicle_button_yellow.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/cicle_button_yellow_focus.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/heartbeat_back.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/mm_title_back_btn.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/mm_title_back_focused.png" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/drawable/mm_title_back_normal.png" charset="UTF-8" />
@@ -63,5 +66,6 @@
     <file url="file://$PROJECT_DIR$/app/src/main/res/values-w820dp/ids.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/color.xml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/src/main/res/values/ids.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../AppData/Local/Android/sdk/sources/android-22/android/content/Context.java" charset="UTF-8" />
   </component>
 </project>

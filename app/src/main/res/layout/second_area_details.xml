@@ -7,6 +7,22 @@
     android:layout_height="match_parent">
 <LinearLayout
     android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:tag="page2"
+    android:id="@+id/secondLftArrowid"
+    android:visibility="gone"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_height="fill_parent">
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="secondLft"
+        android:background="@drawable/keyboard_arrow_left_64px"
+        />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:id="@+id/secLayout">
     <LinearLayout
@@ -722,4 +738,20 @@
     </LinearLayout>
     
 </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:tag="page1"
+        android:gravity="center_vertical"
+        android:id="@+id/secondRigArrowid"
+        android:layout_gravity="center_vertical"
+        android:layout_height="fill_parent">
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:onClick="secondRig"
+            android:background="@drawable/keyboard_arrow_right_64px"
+            />
+    </LinearLayout>
+
 </LinearLayout>

@@ -9,6 +9,9 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AlphaAnimation;
+import android.view.animation.Animation;
+import android.view.animation.LinearInterpolator;
 import android.widget.Button;
 import android.widget.FrameLayout;
 import android.widget.ImageButton;
@@ -173,7 +176,7 @@ if(i%2==0){
            return;
        }
        for(int i = 10 ; i<17;i++){
-           threeAreaButtonCollect[i]=(SpecButton)threeBtnLayout.getChildAt(i);
+           threeAreaButtonCollect[i]=(SpecButton)threeBtnLayout.getChildAt(i-10);
        }
    }
 
@@ -193,6 +196,18 @@ if(i%2==0){
                 j++;
             }
         }
+    }
+
+    public void secondLft(View v){
+        showSecondAreaPage1();
+        findViewById(R.id.secondRigArrowid).setVisibility(View.VISIBLE);
+        findViewById(R.id.secondLftArrowid).setVisibility(View.GONE);
+    }
+
+    public void secondRig(View v){
+        showSecondAreaPage2();
+        findViewById(R.id.secondRigArrowid).setVisibility(View.GONE);
+        findViewById(R.id.secondLftArrowid).setVisibility(View.VISIBLE);
     }
 
     public void showSecondAreaPage1(){
@@ -578,7 +593,15 @@ if(i%2==0){
         }
         popAlert("电量低警告！");
     }
-
+    public void heartBreat(){
+        Button heart= (Button)findViewById(R.id.heatbeatid);
+        final Animation animation = new AlphaAnimation(1, 0); // Change alpha from fully visible to invisible
+        animation.setDuration(1000); // duration - half a second
+        animation.setInterpolator(new LinearInterpolator()); // do not alter animation rate
+        animation.setRepeatCount(0); // Repeat animation infinitely
+        animation.setRepeatMode(Animation.REVERSE); // Reverse animation at the end so the button will fade back in
+        heart.startAnimation(animation);
+    }
     @Override
     public boolean onLongClick(View v) {
         return false;
@@ -589,7 +612,8 @@ if(i%2==0){
      * @param v
      */
     public void submit(View v){
-        showSecondAreaPage2();
+        //showSecondAreaPage2();
+        heartBreat();
         if(fromBtnFlag==null ||toBtnFlag==null){
             Log.i("TEST","请选择请求和目的地址");
             Toast.makeText(FirstAreaActivity.this, "请选择请求和目的地址", Toast.LENGTH_LONG).show();

@@ -23,7 +23,7 @@
     <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
     <string name="sure_btn">确定</string>
     <string name="reselect_btn">重选</string>
-    <string name="cancel_btn">重置所有</string>
+    <string name="cancel_btn">重置</string>
     <string name ="kongpanBtn">空盘运输</string>
     <string name="topic_talker">/android/talker</string>
     <string name="topic_listener">/android/listener</string>\
@@ -32,6 +32,7 @@
     <string name="path_reader">/android/stccs/order</string>
     <string name="path_tags">/android/stccs/position</string>
     <string name="path_status">/android/stccs/agvstatus</string>
+    <string name="path_status_pub">/android/ptccs/agvstatus</string>
     <string name="path_heartbeat">/android/stccs/heartbeat</string>
 
 
